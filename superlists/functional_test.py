@@ -12,7 +12,7 @@ class NewVisitorTest(unittest.TestCase):
     
 
     def tearDown(self):
-        self.browser.quite()
+        self.browser.quit()
 
 
     def check_for_row_in_list_table(self, row_text):
